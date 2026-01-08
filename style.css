@@ -14,6 +14,16 @@ body {
   font-optical-sizing: auto;
 } */
 
+/* *Shared Style */
+.btn {
+    padding: 12px 16px;
+    background-color: #30B868;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    color: #ffff;
+}
+
 
 /* * Header Section style start */
 header {
@@ -48,13 +58,9 @@ nav .nav-menu {
     color: #000000;
 }
 
+/* !! shared Icon */
 nav .btn {
     margin: 12px 16px;
-    background-color: #30B868;
-    border-radius: 4px;
-    border: none;
-    font-size: 16px;
-    color: #ffff;
 }
 
 
@@ -69,6 +75,7 @@ nav .btn {
     margin-bottom: 40px;
 }
 
+/* !!!Shared style */
 .hero .hero-container {
     max-width: 85%;
     width: 1360px;
@@ -101,21 +108,12 @@ nav .btn {
     margin-bottom: 32px;
 }
 
-.hero .btn {
-    padding: 12px 16px;
-    background-color: #30B868;
-    border-radius: 4px;
-    border: none;
-    font-size: 16px;
-    color: #ffff;
-}
-
 .hero .btn-02 {
     padding: 12px 16px;
     background-color: transparent;
     border: 1px solid #ffff;
     border-radius: 4px;
-    font-size: 16px;
+    font-size   : 16px;
     color: #ffff;
     margin-left: 16px;
 }
@@ -128,7 +126,7 @@ nav .btn {
 
 .note .note-container {
     max-width: 85%;
-    width: 1360px;
+    /* width: 1360px; */
     margin: 0 auto;
     text-align: center;
 }
@@ -154,17 +152,22 @@ nav .btn {
 .card-container .card {
     width: 322px;
     padding: 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
 
 }
+
 
 .card .icon {
     width: 60px;
     height: 60px;
-    justify-content: center;
     border-radius: 50%;
     background-color: #F95555;
-    margin-bottom: 16px;
+    margin: 55px 131px 16px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .card h2 {
     font-size: 24px;
@@ -190,7 +193,6 @@ nav .btn {
     max-width: 85%;
     width: 1360px;
     margin: 0 auto 120px auto;
-    /* margin: 0 auto; */
     text-align: center;
     align-items: center;
     display: flex;
@@ -226,12 +228,16 @@ nav .btn {
     line-height: 20px;
 }
 
-/* !!!! Problem !!!!! */
-.brain-heading ul {
+  .brain-heading ul {
     list-style: none;
-    line-height: 16px;
+    padding: 0;
+    margin: 0;
     color: #001931;
-}
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+} 
+
 
 /* *Challenge Section Style Start */
 .challenge {
@@ -245,6 +251,7 @@ nav .btn {
     text-align: center;
     align-items: center;
     background-color: #eceff1;
+    border-radius: 10px;
 }
 
 .challenge-container {
