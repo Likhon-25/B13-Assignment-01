@@ -57,13 +57,16 @@ nav .btn {
     color: #ffff;
 }
 
+
 /* *Hero section style start */
+
 .hero {
     max-width: 1600px;
     background: url(./assets/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     padding: 115px 120px 179px;
+    margin-bottom: 40px;
 }
 
 .hero .hero-container {
@@ -115,4 +118,99 @@ nav .btn {
     font-size: 16px;
     color: #ffff;
     margin-left: 16px;
+}
+
+/* * Note Section Start */
+
+.note {
+    max-width: 1600px;
+}
+
+.note .note-container  {
+    max-width: 85%;
+    width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.note-heading h1{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note-heading p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.note-container .card-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.card-container .card{
+    width: 322px;
+    padding: 24px;
+
+}
+.card div{
+    border-radius: 50%;
+    background-color: #F95555;
+    margin-bottom: 16px;
+}
+
+.card h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+/* * Brain Section Style Start */
+
+.brain-sectiion{
+    max-width: 1600px;
+}
+.brain-container {
+   max-width: 85%;
+    width: 1360px;
+    margin: 0 auto;
+    text-align: center; 
+    align-items: center;
+    display: flex;
+    gap: 60px;
+}  
+
+.brain-container .brain-image{
+    max-width: 600px;
+}
+.brain-heading{
+    text-align: left;
+}
+.brain-heading h6{  
+    font-size: 16px;
+    font-weight: 600px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.brain-heading h2{  
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-heading p{  
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+
+.brain-heading ul {
+    list-style: none;
 }
