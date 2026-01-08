@@ -113,7 +113,7 @@ nav .btn {
     background-color: transparent;
     border: 1px solid #ffff;
     border-radius: 4px;
-    font-size   : 16px;
+    font-size: 16px;
     color: #ffff;
     margin-left: 16px;
 }
@@ -228,7 +228,7 @@ nav .btn {
     line-height: 20px;
 }
 
-  .brain-heading ul {
+.brain-heading ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -236,7 +236,7 @@ nav .btn {
     display: flex;
     flex-direction: column;
     gap: 16px;
-} 
+}
 
 
 /* *Challenge Section Style Start */
@@ -289,35 +289,57 @@ nav .btn {
 /* * Footer Section Style Start */
 
 footer {
+    width: 100%;
     max-width: 1600px;
     background-color: #001931;
-    margin: 120px auto 0px auto;
+    margin: 120px auto 0 auto;
+    padding: 120px 0 80px 0;
 }
 
 .footer-container {
-    max-width: 85%;
-    width: 1360px;
-    text-align: center;
-    align-items: center;
+    width: 85%;
+    max-width: 1360px;
     margin: 0 auto;
-    margin-top: 120px;
+    text-align: center;
 }
 
 .footer-heading {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
 }
-.footer-social h4{
+
+.footer-logo {
+    height: auto;
+    max-width: 127px;
+}
+
+.footer-social h4 {
     font-size: 20px;
-    color: #ffff;
+    color: #ffffff;
+    margin-bottom: 10px;
 }
-hr{
-    margin-top: 80px;
-    color: gray;
+
+.footer-social .icon {
+    display: flex;
+    gap: 16px;
+
 }
-.footer-copyright{
+
+.icon img {
+    width: 24px;
+    height: 24px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid gray;
+    margin-top: 20px;
+}
+
+.footer-copyright {
     font-size: 16px;
     color: #FAFAFA;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
