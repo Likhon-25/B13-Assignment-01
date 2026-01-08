@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* .font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+} */
+
+
+/* * Header Section style start */
+header {
+    background-color: #ffff;
+    margin: 16px auto;
+}
+
+nav {
+    max-width: 85%;
+    width: 1360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+nav .nav-logo {
+    width: 139px;
+    height: 60px;
+}
+
+nav .nav-menu {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    font-size: 16px;
+    align-items: center;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav .btn {
+    margin: 12px 16px;
+    background-color: #30B868;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    color: #ffff;
+}
+
+/* *Hero section style start */
+.hero {
+    max-width: 1600px;
+    background: url(./assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 115px 120px 179px;
+}
+
+.hero .hero-container {
+    max-width: 85%;
+    width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-container .hero-title-button {
+    padding: 8px 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    color: #30B868;
+}
+
+.hero-container h1 {
+    font-size: 72px;
+    color: #ffff;
+    margin-bottom: 16px;
+}
+
+.hero-container span {
+    color: #30B868;
+}
+
+.hero-container .hero-summery {
+    font-size: 18px;
+    color: #ffff;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.hero .btn {
+    padding: 12px 16px;
+    background-color: #30B868;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.hero .btn-02 {
+    padding: 12px 16px;
+    background-color: transparent;
+    border: 1px solid #ffff;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #ffff;
+    margin-left: 16px;
+}
