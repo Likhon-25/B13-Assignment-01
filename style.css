@@ -126,45 +126,54 @@ nav .btn {
     max-width: 1600px;
 }
 
-.note .note-container  {
+.note .note-container {
     max-width: 85%;
     width: 1360px;
     margin: 0 auto;
     text-align: center;
 }
-.note-heading h1{
+
+.note-heading h1 {
     font-size: 48px;
     color: #001931;
     margin-bottom: 16px;
 }
-.note-heading p{
+
+.note-heading p {
     font-size: 16px;
     color: #627382;
     margin-bottom: 44px;
 }
-.note-container .card-container{
+
+.note-container .card-container {
     display: flex;
     gap: 24px;
     justify-content: space-between;
 }
-.card-container .card{
+
+.card-container .card {
     width: 322px;
     padding: 24px;
 
 }
-.card div{
+
+.card .icon {
+    width: 60px;
+    height: 60px;
+    justify-content: center;
     border-radius: 50%;
     background-color: #F95555;
     margin-bottom: 16px;
 }
 
-.card h2{
+.card h2 {
     font-size: 24px;
     font-weight: 600;
     color: #001931;
     margin-bottom: 16px;
 }
-.card p{
+
+.card p {
     font-size: 16px;
     color: #627382;
     line-height: 20px;
@@ -173,44 +182,113 @@ nav .btn {
 
 /* * Brain Section Style Start */
 
-.brain-sectiion{
+.brain-sectiion {
     max-width: 1600px;
 }
+
 .brain-container {
-   max-width: 85%;
+    max-width: 85%;
     width: 1360px;
-    margin: 0 auto;
-    text-align: center; 
+    margin: 0 auto 120px auto;
+    /* margin: 0 auto; */
+    text-align: center;
     align-items: center;
     display: flex;
     gap: 60px;
-}  
+}
 
-.brain-container .brain-image{
+.brain-container .brain-image {
     max-width: 600px;
 }
-.brain-heading{
+
+.brain-heading {
     text-align: left;
 }
-.brain-heading h6{  
+
+.brain-heading h6 {
     font-size: 16px;
     font-weight: 600px;
     color: #30B868;
     margin-bottom: 16px;
 }
-.brain-heading h2{  
+
+.brain-heading h2 {
     font-size: 48px;
     font-weight: bold;
     color: #001931;
     margin-bottom: 16px;
 }
-.brain-heading p{  
+
+.brain-heading p {
     font-size: 16px;
     color: #627382;
     margin-bottom: 40px;
     line-height: 20px;
 }
-
-.brain-heading ul {
+/* !!!! Problem !!!!! */
+.brain-heading ul{
     list-style: none;
+    line-height: 16px;   
+    color: #001931;
 }
+
+/* *Challenge Section Style Start */
+.challenge{
+    max-width: 1600px;
+}
+.challenge .challenge-container{
+    max-width: 85%;
+    width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    background-color: #eceff1;
+}
+.challenge-container{
+    padding: 80px 40px;
+}
+.challenge-container h2{
+    font-size: 40px;
+    columns: #001931;
+    margin-bottom: 16px;
+}
+.challenge-container p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
+    line-height: 24px;
+}
+
+.challenge-container .btn{
+    padding: 12px 16px;
+    background-color: #30B868;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    color: #ffff;
+    margin-bottom: 16px;
+}
+
+.challenge-container .challenge-botton-paragraph{
+    font-size: 16px;
+    color: #627382;
+}
+
+/* * Footer Section Style Start */
+
+footer{
+    max-width: 1600px;
+}
+.footer-container{
+  max-width: 85%;
+    width: 1360px;
+    margin: 120px auto 0px auto;
+    text-align: center;
+    align-items: center;
+}
+.footer-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+
