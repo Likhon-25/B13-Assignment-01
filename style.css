@@ -22,8 +22,18 @@ body {
     border: none;
     font-size: 16px;
     color: #ffff;
+    cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #ffff;
+    border: 1px solid #30B868;;
+    color: #30B868;
+    transition: 1s;
+}
+
+
+/* Main Style Code */
 
 /* * Header Section style start */
 header {
@@ -51,6 +61,12 @@ nav .nav-menu {
     list-style: none;
     font-size: 16px;
     align-items: center;
+    cursor: pointer;
+}
+.nav-menu li a:hover{
+    color: #30B868;
+    font-weight: bold;
+    transition: 500ms;
 }
 
 .nav-menu a {
@@ -58,7 +74,6 @@ nav .nav-menu {
     color: #000000;
 }
 
-/* !! shared Icon */
 nav .btn {
     margin: 12px 16px;
 }
@@ -75,7 +90,6 @@ nav .btn {
     margin-bottom: 40px;
 }
 
-/* !!!Shared style */
 .hero .hero-container {
     max-width: 85%;
     width: 1360px;
@@ -90,9 +104,9 @@ nav .btn {
     font-size: 16px;
     color: #30B868;
 }
-/* !!!!  now style */
-.hero-title-button i{
-   width: 10px;
+
+.hero-title-button i {
+    width: 10px;
     height: 10px;
     margin-right: 6px;
 }
@@ -122,6 +136,14 @@ nav .btn {
     font-size: 16px;
     color: #ffff;
     margin-left: 16px;
+    cursor: pointer;
+}
+
+.hero .btn-02:hover {
+    background-color: #30B868;
+    border: 1px solid #30B868;
+    color: #ffff;
+    transition: 1s;
 }
 
 /* * Note Section Start */
@@ -295,16 +317,12 @@ nav .btn {
     line-height: 24px;
 }
 
-.challenge-container .btn {
-    padding: 12px 16px;
-    background-color: #30B868;
-    border-radius: 4px;
-    border: none;
-    font-size: 16px;
-    color: #ffff;
-    margin-bottom: 16px;
-}
 
+.challenge-container .btn:hover {
+    background-color: #FFFF;
+    border: 1PX solid #30B868;;
+    color: #30B868;
+}
 .challenge-container .challenge-botton-paragraph {
     font-size: 16px;
     color: #627382;
