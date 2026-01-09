@@ -238,6 +238,18 @@ nav .btn {
     gap: 16px;
 }
 
+.brain-heading ul i{
+    width: 20px;
+    height: 20px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items:  center; */
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #30B868;
+
+}
+
 
 /* *Challenge Section Style Start */
 .challenge {
@@ -287,7 +299,6 @@ nav .btn {
 }
 
 /* * Footer Section Style Start */
-
 footer {
     width: 100%;
     max-width: 1600px;
