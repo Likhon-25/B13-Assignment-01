@@ -90,6 +90,12 @@ nav .btn {
     font-size: 16px;
     color: #30B868;
 }
+/* !!!!  now style */
+.hero-title-button i{
+   width: 10px;
+    height: 10px;
+    margin-right: 6px;
+}
 
 .hero-container h1 {
     font-size: 72px;
@@ -238,9 +244,15 @@ nav .btn {
     gap: 16px;
 }
 
+.brain-heading li {
+    display: flex;
+    gap: 6px;
+}
+
 .brain-heading ul i {
     width: 20px;
     height: 20px;
+    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
